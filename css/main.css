@@ -23,11 +23,62 @@ main h2 {
   letter-spacing: 3px;
 }
 
+main h2 span::after {
+  content: "";
+  display: inline-block;
+  height: 40px;
+  width: 3px;
+  background-color: white;
+  margin-left: 8px;
+  animation: blink 0.8s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 main p {
   max-width: 500px;
   margin: 0 auto;
   font-size: 1.2rem;
 }
 
-main button .enter {
+main .mainbutton {
+  background: transparent;
+  border-radius: 20px;
+  border: 3px solid white;
+  padding: 15px 20px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+main .mouse {
+  border: none;
+  background: transparent;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 50%;
+  transform: translateX(50%);
+  animation-name: upDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes upDown {
+  0% {
+    bottom: 1rem;
+  }
+  50% {
+    bottom: 1.5rem;
+  }
+  100% {
+    bottom: 1rem;
+  }
 }
