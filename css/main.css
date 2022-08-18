@@ -1,0 +1,33 @@
+main {
+  background: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url(../images/sejong.png);
+  background-position: center center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+main h4 {
+  font-size: 2rem;
+}
+
+main h2 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 3.5rem;
+  margin: 2rem 0;
+  letter-spacing: 3px;
+}
+
+main p {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+main button .enter {
+}
