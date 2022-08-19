@@ -12,6 +12,7 @@ header .container {
 
 header button {
   border: 0;
+  background: transparent;
 }
 
 header h1 button {
