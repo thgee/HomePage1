@@ -1,0 +1,46 @@
+section {
+  font-family: "Poppins", sans-serif;
+  padding: 5rem 0;
+}
+
+section:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+section .title {
+  margin-bottom: 3rem;
+}
+
+section .title h4 {
+  font-size: 1.35rem;
+  color: #ed4848;
+}
+
+section .title h2 {
+  font-size: 2.5rem;
+}
+
+section .do_me {
+  display: flex;
+  justify-content: center;
+}
+
+section .do_inner {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+  background-color: white;
+}
+
+section .do_inner .icon {
+  font-size: 2.5rem;
+}
+
+section .do_inner .content h3 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+section .do_inner .content p {
+  margin-top: 1rem;
+}
